@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, serif;
+    background-color: rgb(28,28,28);
+}
+
+embed {
+    border: none;
+    width: 100%;
+}
+
+ul {
+    color:rgb(0, 121, 211);
+}
+
+ul li h4, ul li p{
+    margin-top: 0;
+    color: black;
+}
+
+a.fa {
+    margin: 5px 10px;
+    padding: 0.5em;
+    text-decoration: none;
+    background-color: rgb(0, 121, 211);
+    border-radius: 50%;
+    color:white;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+header {
+    font-size: 3em;
+    padding: 20px 8px 10px 8px;
+}
+
+nav {
+    border-radius: 0.5em;
+    box-shadow: 0 3px 10px black;
+    height: 3em;
+    line-height: 3em;
+    background-image: linear-gradient(darkgray, gray);
+    overflow: auto;
+}
+
+nav a {
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+    border-right: 1px solid gray;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-image: linear-gradient(lightgray, gray);
+}
+
+nav a:visited {
+    background-image: inherit;
+    color: white;
+}
+
+nav a:active {
+    background-image: linear-gradient(gray, lightgray);
+}
+
+nav a.active {
+    background-image: linear-gradient(gray, darkgray);
+    z-index: auto;
+}
+
+main {
+    padding: 0 8px;
+}
+
+#wrapper {
+    width: 1024px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 10px 10px 10px black;
+    padding: 0 12px 12px 12px;
+    border-radius: 10px;
+}

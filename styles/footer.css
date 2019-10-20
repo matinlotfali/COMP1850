@@ -1,0 +1,16 @@
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-image: linear-gradient(darkgray, gray);
+    box-shadow: 0 3px 10px black;
+    border-radius: 0.5em;
+    color:white;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color:white;
+}

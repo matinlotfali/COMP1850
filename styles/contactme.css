@@ -1,0 +1,45 @@
+.fa:before {
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+table {
+    width:1px;
+    white-space: nowrap;
+}
+
+a.fa:before {
+    font-size: 32px;
+}
+
+a.fa {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    margin-right: 5px;
+    box-shadow: 0 2px 5px gray;
+    color: white;
+}
+
+a.fa:hover {
+    background-color: rgb(0, 161, 251);
+}
+
+a.fa:visited {
+    color:white;
+}
+
+input, textarea
+{
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+textarea
+{
+    height: 100px;
+}
